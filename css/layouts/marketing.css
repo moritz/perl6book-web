@@ -29,6 +29,11 @@ label {
     height: auto;
 }
 
+.float-right {
+    float: right;
+    padding: 5mm;
+}
+
 /*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need

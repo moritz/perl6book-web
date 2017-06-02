@@ -26,7 +26,7 @@ book to read.
 * [Deep Text Media](https://deeptext.media/perl6-at-a-glance/)
 * Author: [Andrew Shitov](https://twitter.com/andrewshitov)
 * Formats: Print, E-Book
-* Target Audience: more experienced programmers
+* Target Audience: more experienced programmers; curious programmers
 * Emphasis: Overview of Perl 6 features
 * Status: Published
 
@@ -41,7 +41,7 @@ book to read.
 
 * [Deep Text Media](https://deeptext.media/migrating-to-perl6)
 * Author: [Andrew Shitov](https://twitter.com/andrewshitov)
-* Formats: Print
+* Formats: Print, E-Book
 * Target Audience: Perl 5 programmers
 * Emphasis: Moving from Perl 5 to Perl 6
 * Status: Preorder
@@ -55,6 +55,33 @@ book to read.
 * Target Audience: Programming novices
 * Emphasis: ?
 * Status: Early draft released to backers of the kickstarter campaign
+
+## Web Development in Perl 6
+
+* Author: Gabor Szabo
+* Formats: ?
+* Target Audience: 
+* Emphasis: ?
+* Status: Crowdfunding
+
+## Using Perl 6
+
+* DeepText
+* Author: Andrew Shitov
+* Formats: Paper, E-Book
+* Target Audience: Novice programmers; Programmers with basic knowledge of Perl 6
+* Emphasis: Solving programming challenges in Perl 6
+* Status: 35% finished
+
+## Perl 6 Deep Dive
+
+* Publisher tba
+* Author: Andrew Shitov
+* Formats: Paper, E-Book(?)
+* Target Audience: All programmers willing to learn Perl 6
+* Emphasis: Complete textbook of Perl 6
+* Status: 52% finished
+
 
 # Decision Tree
 

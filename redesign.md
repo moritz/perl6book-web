@@ -17,7 +17,7 @@ book to read.
 * [O'Reilly](http://shop.oreilly.com/product/0636920065883.do), [Green Tea Press](http://greenteapress.com/wp/think-perl-6/)
 * Author: Laurent Rosenfeld, [Allen Downey](http://www.allendowney.com/wp/)
 * Formats: Print, E-Book
-* Target Audience: Programming beginners
+* Target Audience: Programming novices
 * Emphasis: Computer Science
 * Status: Published
 
@@ -47,3 +47,11 @@ book to read.
 * Status: Preorder
 
 ## Learning Perl 6
+
+* [Book web page](https://www.learningperl6.com/book/) (O'Reilly is
+  supposed to publish it, but doesn't have a landing page yet)
+* Author: [brian d foy](https://www.learningperl6.com/author/brian/)
+* Formats: ?
+* Target Audience: Programming novices
+* Emphasis: ?
+* Status: Early draft released to backers of the kickstarter campaign

@@ -55,3 +55,21 @@ book to read.
 * Target Audience: Programming novices
 * Emphasis: ?
 * Status: Early draft released to backers of the kickstarter campaign
+
+# Decision Tree
+
+    + Are you familiar with other programming languages?
+    |
+    + -- yes, Perl 5  ==> Migrating to Perl 6
+    + -- yes, something else
+    |     ==>  + What style do your prefer?
+    |          |
+    |          + examples, practical     ==> Perl 6 Fundamentals
+    |          + structured feature list ==> Perl 6 at a Glance
+    |
+    + -- no, I'm a novice
+        ==> +  What's your primary goal?
+            |
+            + learn CS     ==> Think Perl 6
+            + learn Perl 6 ==> Learning Perl 6
+        

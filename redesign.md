@@ -19,11 +19,31 @@ book to read.
 * Formats: Print, E-Book
 * Target Audience: Programming beginners
 * Emphasis: Computer Science
+* Status: Published
 
 ## Perl 6 At a Glance
 
+* [Deep Text Media](https://deeptext.media/perl6-at-a-glance/)
+* Author: [Andrew Shitov](https://twitter.com/andrewshitov)
+* Formats: Print, E-Book
+* Target Audience: more experienced programmers
+* Emphasis: Overview of Perl 6 features
+* Status: Published
+
 ## Perl 6 Fundamentals
+* [Apress](https://www.apress.com/us/book/9781484228982)
+* Formats: Print, E-Book
+* Target Audience: more experienced programmers
+* Emphasis: Practical, example-driven invitation to Perl 6
+* Status: Typesetting (not yet published)
 
 ## Migrating to Perl 6
+
+* [Deep Text Media](https://deeptext.media/migrating-to-perl6)
+* Author: [Andrew Shitov](https://twitter.com/andrewshitov)
+* Formats: Print
+* Target Audience: Perl 5 programmers
+* Emphasis: Moving from Perl 5 to Perl 6
+* Status: Preorder
 
 ## Learning Perl 6

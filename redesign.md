@@ -75,7 +75,7 @@ book to read.
 
 ## Perl 6 Deep Dive
 
-* Publisher tba
+* Packt
 * Author: Andrew Shitov
 * Formats: Paper, E-Book(?)
 * Target Audience: All programmers willing to learn Perl 6

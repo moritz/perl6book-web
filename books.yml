@@ -1,0 +1,80 @@
+- books:
+    think:
+        title: Think Perl 6
+        subtitle:  How to Think Like a Computer Scientist 
+        links:
+            - title: O'Reilly
+              url: http://shop.oreilly.com/product/0636920065883.do
+            - title: Green Tea Press
+              url: http://greenteapress.com/wp/think-perl-6/
+        authors:
+            - title: Laurent Rosenfeld
+            - title: Allen Downey
+              url: http://www.allendowney.com/wp/
+        formats:
+            - print
+            - ebook
+        target_audience: Programming novices
+        emphasis: Computer Science
+        status: published
+        available_for_purchase: True
+        publication_date: 2017-05-26
+
+    glance:
+        title: Perl 6 At a Glance
+        links:
+            - title: Deep Text Media
+              url: https://deeptext.media/perl6-at-a-glance/
+        authors:
+            - title: Andrew Shitov
+              url: https://twitter.com/andrewshitov
+        formats:
+            - print
+            - ebook
+        target_audience: more experienced programmers
+        emphasis: Overview of Perl 6 features
+        status: published
+        available_for_purchase: True
+        publication_date: 2016-12-29
+
+    fundamentals:
+        title: Perl 6 Fundamentals
+        subtitle: A Primer with Examples, Projects, and Case Studies
+        links:
+            - title: Apress
+            - url: https://www.apress.com/us/book/9781484228982
+        formats:
+            - print
+            - ebook
+        target_audience: more experienced programmers
+        emphasis: Practical, example-driven invitation to Perl 6
+        status: Typesetting
+        available_for_purchase: False
+
+    migrating:
+        title: Migrating to Perl 6
+        subtitle: An Easy Transition from Perl 5
+        links:
+            - title: DeepText Media
+              url: https://deeptext.media/migrating-to-perl6
+        authors:
+            - title: Andrew Shitov
+              url: https://twitter.com/andrewshitov
+        formats:
+            - print
+        target_audience: Perl 5 programmers
+        emphasis: Transition from Perl 5 to Perl 6
+        status: published
+        available_for_purchase: False
+    learning:
+        links:
+            - title: Web page
+              url: https://www.learningperl6.com/book/
+            - title: Kickstarter
+              url: https://www.kickstarter.com/projects/1422827986/learning-perl-6
+        authors:
+            title: brian d foy
+            url: https://www.learningperl6.com/author/brian/
+        target_audience: Programming novices
+        status: Early draft released to backers of the kickstarter campaign
+        available_for_purchase: False

@@ -9,6 +9,7 @@ article.p6-book {
 }
 section.intro {
     border: 2px solid green;
+    max-width: 80.3em;
 }
 
 .p6-book-properties th {
@@ -28,6 +29,10 @@ th {
 }
 .p6-book {
     width: 24em;
+}
+
+.p6-unavailable {
+    background-color: #eee;
 }
 
 footer {

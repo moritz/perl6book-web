@@ -40,9 +40,12 @@
     fundamentals:
         title: Perl 6 Fundamentals
         subtitle: A Primer with Examples, Projects, and Case Studies
+        authors:
+            - url: https://perlgeek.de/
+              title: Moritz Lenz
         links:
             - title: Apress
-            - url: https://www.apress.com/us/book/9781484228982
+              url: https://www.apress.com/us/book/9781484228982
         formats:
             - print
             - ebook
@@ -66,6 +69,7 @@
         emphasis: Transition from Perl 5 to Perl 6
         status: published
         available_for_purchase: False
+
     learning:
         links:
             - title: Web page
@@ -73,7 +77,7 @@
             - title: Kickstarter
               url: https://www.kickstarter.com/projects/1422827986/learning-perl-6
         authors:
-            title: brian d foy
+          - title: brian d foy
             url: https://www.learningperl6.com/author/brian/
         target_audience: Programming novices
         status: Early draft released to backers of the kickstarter campaign

@@ -8,6 +8,7 @@ my %yaml-data = load-yaml(slurp 'books.yml');
 my %books = %yaml-data<books>;
 for %books.kv -> $key, %book {
     %book<id> = $key;
-    say $key;
-    say $book-template.render($%book);
+    %book<image> = 'thumbnail';
+    my $html = $book-template.render($%book);
+    spurt "out/$key.html", $html;
 }

@@ -1,0 +1,34 @@
+% my %book := @_[0];
+%
+% sub maybe-url(% (:$title!, :$url)) {
+%   $url ?? sprintf('<a href="%s">%s</a>', $url, $title) !! $title;
+% }
+% sub titlize($x) {
+%    $x.subst(:g, '_', ' ').tc;
+% }
+
+<article class="p6-book <%= %book<available_for_purchase> ?? 'p6-available' !! 'p6-unavailable' %>" id="p6-<%= %book<id> %>">
+    <h1><%= %book<title> %></h1>
+    % if %book<subtitle> {
+        <h2><%= %book<subtitle> %></h2>
+    % }
+    <img class="p6-book-conver-img" src="img/<%= %book<image> // 'thumbnail' %>/<%= %book<id> %>.jpg">
+    <p class="p6-authors">by <%= %book<authors>.map(&maybe-url).join(', ') %></p>
+    <p class="p6-links">
+        %= %book<links>.map(&maybe-url).join(', ')
+    </p>
+
+    <table class="p6-book-properties">
+        <tbody>
+            % for <formats target_audience emphasis status publication_date> -> $attr {
+                % if %book{$attr} -> $val {
+                    <tr>
+                        <th><%= titlize($attr) %></th>
+                        <td><%= $val.join(', ') %></td>
+                    </tr>
+                % }
+            % }
+
+        </tbody>
+    </table>
+</article>

@@ -115,7 +115,7 @@
             - ebook
         target_audience: Programming novices
         emphasis: Solving programming challenges in Perl 6
-        status: 35% finished
+        status: '35% finished'
         available_for_purchase: False
 
     deepdive:
@@ -126,5 +126,5 @@
             - print
         target_audience: programmers
         emphasis: Complete textbook of Perl 6
-        status: 52% finished
+        status: '52% finished'
         available_for_purchase: False

@@ -12,11 +12,15 @@
     % if %book<subtitle> {
         <h2><%= %book<subtitle> %></h2>
     % }
-    <img class="p6-book-conver-img" src="img/<%= %book<image> // 'thumbnail' %>/<%= %book<id> %>.jpg">
+    % if %book<has_image> {
+        <img class="p6-book-conver-img" src="img/<%= %book<image> // 'thumbnail' %>/<%= %book<id> %>.jpg">
+    % }
     <p class="p6-authors">by <%= %book<authors>.map(&maybe-url).join(', ') %></p>
-    <p class="p6-links">
-        %= %book<links>.map(&maybe-url).join(', ')
-    </p>
+    % if %book<links> {
+        <p class="p6-links">
+            %= %book<links>.map(&maybe-url).join(', ')
+        </p>
+    % }
 
     <table class="p6-book-properties">
         <tbody>

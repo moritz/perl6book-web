@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="css/layout.css" rel="stylesheet" type="text/css">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Perl 6 Books</title>
 </head>
 
 <body>
-    <section class="intro">
+    <section class="intro p6-box">
         <h1>Perl 6 Books</h1>
         <p>You can find a list of Perl 6 books here, as well as guidance
             on which one to read.</p>
@@ -62,11 +63,13 @@
 
     <section class="p6-books">
         <h1>The Books</h1>
-        %= @_.join("\n")
+        <div class="p6-books-container">
+            %= @_.join("\n")
+        </div>
     </section>
  
     <footer>
-        <p>The source for this website can be found <a href="https://github.com/moritz/perl6book-web">on GithUb in the repo moritz/perl6book-web</a>. Please report issues there.</p>
+        <p>The source for this website can be found <a href="https://github.com/moritz/perl6book-web">on GitHub in the repo moritz/perl6book-web</a>. Please report issues there.</p>
         <p>Copyright 2017 Moritz Lenz  and the contributors to the above repository.</p>
     </footer>
 </body>

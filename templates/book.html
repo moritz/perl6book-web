@@ -7,7 +7,7 @@
 %    $x.subst(:g, '_', ' ').tc;
 % }
 
-<article class="p6-book <%= %book<available_for_purchase> ?? 'p6-available' !! 'p6-unavailable' %>" id="p6-<%= %book<id> %>">
+<article class="p6-book p6-box <%= %book<available_for_purchase> ?? 'p6-available' !! 'p6-unavailable' %>" id="p6-<%= %book<id> %>">
     <h2><%= %book<title> %></h2>
     % if %book<subtitle> {
         <h3><%= %book<subtitle> %></h3>

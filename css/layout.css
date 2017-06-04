@@ -22,6 +22,14 @@ th {
     padding-right: 1ex;
 }
 
+.p6-books-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.p6-book {
+    width: 24em;
+}
+
 footer {
     background-color: #ddd;
 }

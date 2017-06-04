@@ -8,12 +8,14 @@
 % }
 
 <article class="p6-book <%= %book<available_for_purchase> ?? 'p6-available' !! 'p6-unavailable' %>" id="p6-<%= %book<id> %>">
-    <h1><%= %book<title> %></h1>
+    <h2><%= %book<title> %></h2>
     % if %book<subtitle> {
-        <h2><%= %book<subtitle> %></h2>
+        <h3><%= %book<subtitle> %></h3>
     % }
     % if %book<has_image> {
-        <img class="p6-book-conver-img" src="img/<%= %book<image> // 'thumbnail' %>/<%= %book<id> %>.jpg">
+        <a href="img/full/<%= %book<id> %>.jpg">
+            <img class="p6-book-conver-img" src="img/thumbnail/<%= %book<id> %>.jpg">
+        </a>
     % }
     <p class="p6-authors">by <%= %book<authors>.map(&maybe-url).join(', ') %></p>
     % if %book<links> {

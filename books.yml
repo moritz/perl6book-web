@@ -76,6 +76,8 @@
         has_image: True
 
     learning:
+        title: Learning Perl 6
+        subtitle: Keeping the Easy, Hard and Impossible Within Reach
         links:
             - title: Web page
               url: https://www.learningperl6.com/book/

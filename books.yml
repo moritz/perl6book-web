@@ -19,6 +19,7 @@
         status: published
         available_for_purchase: True
         publication_date: 2017-05-26
+        has_image: True
 
     glance:
         title: Perl 6 At a Glance
@@ -36,6 +37,7 @@
         status: published
         available_for_purchase: True
         publication_date: 2016-12-29
+        has_image: True
 
     fundamentals:
         title: Perl 6 Fundamentals
@@ -53,6 +55,7 @@
         emphasis: Practical, example-driven invitation to Perl 6
         status: Typesetting
         available_for_purchase: False
+        has_image: True
 
     migrating:
         title: Migrating to Perl 6
@@ -65,10 +68,12 @@
               url: https://twitter.com/andrewshitov
         formats:
             - print
+            - ebook
         target_audience: Perl 5 programmers
         emphasis: Transition from Perl 5 to Perl 6
         status: published
         available_for_purchase: False
+        has_image: True
 
     learning:
         links:
@@ -81,4 +86,45 @@
             url: https://www.learningperl6.com/author/brian/
         target_audience: Programming novices
         status: Early draft released to backers of the kickstarter campaign
+        available_for_purchase: False
+        has_image: True
+
+    baildador:
+        title: Web Application Development in Perl 6
+        links:
+            - title: LeanPub
+              url: https://leanpub.com/bailador
+            - title: crowd funding campaign
+              url: https://www.indiegogo.com/projects/book-web-application-development-in-perl-6-website--2/x/16699245#/
+        authors:
+            - title: Gabor Szabo
+              url: https://szabgab.com/
+        formats:
+            - ebook
+        target_audience: programmers
+        emphasis: web development
+        status: Crowdfunding
+        available_for_purchase: False
+
+    using:
+        title: Using Perl 6
+        authors:
+            - title: Andrew Shitov
+        formats:
+            - print
+            - ebook
+        target_audience: Programming novices
+        emphasis: Solving programming challenges in Perl 6
+        status: 35% finished
+        available_for_purchase: False
+
+    deepdive:
+        title: Perl 6 Deep Dive
+        authors:
+            - title: Andrew Shitov
+        formats:
+            - print
+        target_audience: programmers
+        emphasis: Complete textbook of Perl 6
+        status: 52% finished
         available_for_purchase: False

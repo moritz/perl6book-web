@@ -1,0 +1,27 @@
+.p6-box, footer {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+article.p6-book {
+    border: 2px solid blue;
+}
+section.intro {
+    border: 2px solid green;
+}
+
+.p6-book-properties th {
+    text-align: right;
+}
+
+th, tr {
+    padding: 2px;
+}
+th {
+    padding-right: 1ex;
+}
+
+footer {
+    background-color: #ddd;
+}

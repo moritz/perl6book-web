@@ -130,3 +130,15 @@
         emphasis: Complete textbook of Perl 6
         status: '52% finished'
         available_for_purchase: False
+
+    learning:
+      title: Learning to program with Perl 6
+      authors:
+        - title: JJ Merelo
+      formats:
+        - ebook
+      target_audience: beginners
+      emphasis: Learning from scratch, starting with expressions
+      status: First edition, more to come
+      available_for_purchase: True
+

@@ -91,7 +91,7 @@
         available_for_purchase: False
         has_image: True
 
-    baildador:
+    bailador:
         title: Web Application Development in Perl 6
         links:
             - title: LeanPub
@@ -130,3 +130,20 @@
         emphasis: Complete textbook of Perl 6
         status: '52% finished'
         available_for_purchase: False
+
+    learningtoprogram:
+      title: Learning to program with Perl 6
+      links:
+        - title: Amazon.com
+          url: http://amzn.to/2th9b2P
+        - title: Amazon.co.uk
+          url: http://amzn.to/2tgO8h7
+      authors:
+        - title: JJ Merelo
+      formats:
+        - ebook
+      target_audience: beginners
+      emphasis: Learning from scratch, starting with expressions
+      status: First edition, more to come
+      available_for_purchase: True
+      has_image: True

@@ -147,3 +147,18 @@
       status: First edition, more to come
       available_for_purchase: True
       has_image: True
+    regex:
+      title: Searching and Parsing with Perl 6 Regexes
+      links:
+        - title: LeanPub
+          url: https://leanpub.com/perl6regex/
+      authors:
+        - title: Moritz Lenz
+          url: https://perlgeek.de/
+      formats:
+        - ebook
+      target_audience: programmers
+      emphasis: Parsing and searching, regex, grammars
+      status: in progress; preview can be purchased
+      available_for_purchase: True
+      has_image: False

@@ -49,12 +49,13 @@
             - title: Apress
               url: https://www.apress.com/us/book/9781484228982
         formats:
-            - print
+            - print (preorder)
             - ebook
         target_audience: more experienced programmers
         emphasis: Practical, example-driven invitation to Perl 6
         status: Typesetting
-        available_for_purchase: False
+        publication_date: 2017-07-20
+        available_for_purchase: True
         has_image: True
 
     migrating:

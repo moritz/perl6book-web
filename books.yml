@@ -123,14 +123,18 @@
 
     deepdive:
         title: Perl 6 Deep Dive
+        links:
+            - title: Packt
+              url: https://www.packtpub.com/application-development/perl-6-deep-dive
         authors:
             - title: Andrew Shitov
         formats:
             - print
         target_audience: programmers
         emphasis: Complete textbook of Perl 6
-        status: '52% finished'
+        status: 'manuscript mostly finished; ETA Novemeber 2017'
         available_for_purchase: False
+        has_image: True
 
     learningtoprogram:
       title: Learning to program with Perl 6

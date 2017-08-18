@@ -48,6 +48,8 @@
         links:
             - title: Apress
               url: https://www.apress.com/us/book/9781484228982
+            - title: Amazon
+              url: http://amzn.to/2fSdLTc
         formats:
             - print (preorder)
             - ebook

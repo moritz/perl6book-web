@@ -166,6 +166,6 @@
         - ebook
       target_audience: programmers
       emphasis: Parsing and searching, regex, grammars
-      status: in progress; preview can be purchased
-      available_for_purchase: True
+      status: in progress; To be published by Apress Media
+      available_for_purchase: False
       has_image: False

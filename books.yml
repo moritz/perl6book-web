@@ -134,8 +134,8 @@
             - print
         target_audience: programmers
         emphasis: Complete textbook of Perl 6
-        status: 'manuscript mostly finished; ETA Novemeber 2017'
-        available_for_purchase: False
+        status: published
+        available_for_purchase: True
         has_image: True
 
     learningtoprogram:

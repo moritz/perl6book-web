@@ -154,11 +154,14 @@
       status: First edition, more to come
       available_for_purchase: True
       has_image: True
+
     regex:
       title: Searching and Parsing with Perl 6 Regexes
       links:
-        - title: LeanPub
-          url: https://leanpub.com/perl6regex/
+        - title: Amazon
+          url: https://www.amazon.com/Parsing-Perl-Regexes-Grammars-Recursive/dp/1484232275
+        - title: Apress
+          url: https://www.apress.com/us/book/9781484232279
       authors:
         - title: Moritz Lenz
           url: https://perlgeek.de/
@@ -166,6 +169,6 @@
         - ebook
       target_audience: programmers
       emphasis: Parsing and searching, regex, grammars
-      status: in progress; To be published by Apress Media
+      status: Available for preorder; ETA November/December 2017
       available_for_purchase: False
-      has_image: False
+      has_image: True

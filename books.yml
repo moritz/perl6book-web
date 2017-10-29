@@ -7,6 +7,8 @@
               url: http://shop.oreilly.com/product/0636920065883.do
             - title: Green Tea Press
               url: http://greenteapress.com/wp/think-perl-6/
+            - title: Source on GitHub
+              url: https://github.com/LaurentRosenfeld/thinkperl6/
         authors:
             - title: Laurent Rosenfeld
             - title: Allen Downey
@@ -113,6 +115,9 @@
 
     using:
         title: Using Perl 6
+        links:
+            - title: DeepText Media
+              url: https://deeptext.media/using-perl6
         authors:
             - title: Andrew Shitov
         formats:
@@ -120,8 +125,9 @@
             - ebook
         target_audience: Programming novices
         emphasis: Solving programming challenges in Perl 6
-        status: '35% finished'
-        available_for_purchase: False
+        status: published
+        available_for_purchase: True
+        has_image: True
 
     deepdive:
         title: Perl 6 Deep Dive

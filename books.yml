@@ -142,6 +142,7 @@
         emphasis: Complete textbook of Perl 6
         status: published
         available_for_purchase: True
+        publication_date: 2017-10-20
         has_image: True
 
     learningtoprogram:

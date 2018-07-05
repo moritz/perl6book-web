@@ -76,7 +76,7 @@
             - ebook
         target_audience: Perl 5 programmers
         emphasis: Transition from Perl 5 to Perl 6
-        status: published
+        status: ETA Novemeber 2018
         available_for_purchase: False
         has_image: True
 
@@ -175,7 +175,8 @@
       formats:
         - ebook
       target_audience: programmers
+      publication_date: 2017-12-22
       emphasis: Parsing and searching, regex, grammars
-      status: Available for preorder; ETA November/December 2017
-      available_for_purchase: False
+      status: published
+      available_for_purchase: True
       has_image: True

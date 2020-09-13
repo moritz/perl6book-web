@@ -62,24 +62,6 @@ books:
         available_for_purchase: True
         has_image: True
 
-    migrating:
-        title: Migrating to Perl 6
-        subtitle: An Easy Transition from Perl 5
-        links:
-            - title: DeepText Media
-              url: https://deeptext.media/migrating-to-perl6
-        authors:
-            - title: Andrew Shitov
-              url: https://twitter.com/andrewshitov
-        formats:
-            - print
-            - ebook
-        target_audience: Perl 5 programmers
-        emphasis: Transition from Perl 5 to Perl 6
-        status: ETA Novemeber 2018
-        available_for_purchase: False
-        has_image: True
-
     learning:
         title: Learning Perl 6
         subtitle: Keeping the Easy, Hard and Impossible Within Reach

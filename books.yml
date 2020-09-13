@@ -1,4 +1,4 @@
-- books:
+books:
     think:
         title: Think Perl 6
         subtitle:  How to Think Like a Computer Scientist 
@@ -42,23 +42,23 @@
         has_image: True
 
     fundamentals:
-        title: Perl 6 Fundamentals
+        title: Raku Fundamentals
         subtitle: A Primer with Examples, Projects, and Case Studies
         authors:
             - url: https://perlgeek.de/
               title: Moritz Lenz
         links:
             - title: Apress
-              url: https://www.apress.com/us/book/9781484228982
+              url: https://www.apress.com/9781484261088
             - title: Amazon
-              url: http://amzn.to/2fSdLTc
+              url: https://smile.amazon.com/dp/B08HKWS6H2/
         formats:
-            - print (preorder)
+            - print
             - ebook
         target_audience: more experienced programmers
         emphasis: Practical, example-driven invitation to Perl 6
         status: Published
-        publication_date: 2017-07-20
+        publication_date: 2020-09-11
         available_for_purchase: True
         has_image: True
 

@@ -96,23 +96,6 @@ books:
         available_for_purchase: True
         has_image: True
 
-    bailador:
-        title: Web Application Development in Perl 6
-        links:
-            - title: LeanPub
-              url: https://leanpub.com/bailador
-            - title: crowd funding campaign
-              url: https://www.indiegogo.com/projects/book-web-application-development-in-perl-6-website--2/x/16699245#/
-        authors:
-            - title: Gabor Szabo
-              url: https://szabgab.com/
-        formats:
-            - ebook
-        target_audience: programmers
-        emphasis: web development
-        status: Crowdfunding
-        available_for_purchase: False
-
     using:
         title: Using Perl 6
         links:
